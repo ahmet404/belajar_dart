@@ -47,4 +47,15 @@ void main() {
   // pembuatan object model lama (tidak berlaku lagi)
   var person3 = new Person();
   print(person3);
+
+  person1.sayGoodBye('Diani');
 }
+
+// Extension Method
+// Kita juga bisa mengakses atribut classnya
+extension SayGoodBye on Person {
+  void sayGoodBye(String paramName) {
+    print('Good Bye $paramName, from $name');
+  }
+}
+
