@@ -3,12 +3,12 @@ class Person {
   String? address;
 
   // Default constructor
-  Person(this.name, this.address){
+  Person(this.name, this.address) {
     print('Nama: $name \nAlamat: $address');
   }
 
   // Named Constructor
-  Person.onlyName(this.name){
+  Person.onlyName(this.name) {
     print('''
     Sampai saat ini aku masih memikirkanmu $name.
     Aku bingung aku harus apa sekarang,
