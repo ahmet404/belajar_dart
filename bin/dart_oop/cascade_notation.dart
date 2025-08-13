@@ -16,6 +16,7 @@ class UserProfile {
   }
 }
 
+// Sebuah function dengan returnType object dari class UserProfile
 UserProfile? createUser() {
   return null;
 }
