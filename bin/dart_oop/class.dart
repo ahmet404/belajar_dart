@@ -45,6 +45,7 @@ void main() {
   print(person2);
 
   // pembuatan object model lama (tidak berlaku lagi)
+  // ignore: unnecessary_new
   var person3 = new Person();
   print(person3);
 
@@ -58,4 +59,3 @@ extension SayGoodBye on Person {
     print('Good Bye $paramName, from $name');
   }
 }
-

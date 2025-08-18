@@ -32,7 +32,7 @@ void main() {
   user1.verify();
 
   // dengan cascade notation
-  var user2 = UserProfile()
+  UserProfile()
     ..name = 'Nurdiani Daulay'.toUpperCase()
     ..email = 'nurdiani1909@gmail.com'.toLowerCase()
     ..country

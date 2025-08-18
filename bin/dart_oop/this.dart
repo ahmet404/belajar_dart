@@ -4,7 +4,9 @@ class Person {
 
   // Default Constructor
   Person(String name, String address) {
+    // ignore: prefer_initializing_formals
     this.name = name;
+    // ignore: prefer_initializing_formals
     this.address = address;
   }
 }

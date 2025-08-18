@@ -55,6 +55,7 @@ void main() {
 
   // Anonymous function sebagai parameter forEach
   var names = ['Budi', 'Siti', 'Andi'];
+  // ignore: avoid_function_literals_in_foreach_calls
   names.forEach((nama) {
     print('Hai, $nama');
   });

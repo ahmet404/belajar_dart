@@ -6,6 +6,8 @@ class Person {
 }
 
 class OtherPerson extends Person {
+  @override
+  // ignore: overridden_fields
   String name = 'Diani'; // field overriding
   // tapi kata chatgpt ini hanya field shadowing biasa
   // kalau field overriding itu menggunakan getter/setter

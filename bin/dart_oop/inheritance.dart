@@ -22,7 +22,7 @@ void main() {
     ..name = 'Achmad'
     ..sayHello('Irul');
 
-  var vp = VicePrecident()
+  VicePrecident()
     ..name = 'Nurdiani'
     ..sayHello('Irul')
     ..sayHi();

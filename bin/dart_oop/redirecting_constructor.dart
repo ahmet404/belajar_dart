@@ -38,18 +38,20 @@ class Person {
 void main() {
   // Menggunakan default constructor
   var person = Person('Achmad', 'Aceh');
-
+  print(person.name);
   // Menggunakan redirecting constructor
   var person2 = Person.withName();
-
+  print(person2.name);
   // Menggunakan redirecting constructor
   var person3 = Person.withAddress('Medan');
+  print(person3.name);
 
   var person4 = Person.noName();
   print(person4.name);
   print(person4.address);
 
   var person5 = Person.siPitung();
+  print(person5.name);
 
   var person6 = Person.fromJakarta();
   print(person6.address);
