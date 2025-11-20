@@ -5,3 +5,7 @@ void main() {
   isSingle = false;
   print(isSingle);
 }
+
+void main() {
+  print("Hello World!");
+}
